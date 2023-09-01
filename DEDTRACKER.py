@@ -1,4 +1,4 @@
-  GNU nano 7.2                                                                                       dedtracker.py *                                                                                               
+                                                                                     dedtracker.py *                                                                                               
 #!/usr/bin/env python3
 #author Mute3very
 import json
