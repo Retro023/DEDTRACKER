@@ -28,7 +28,7 @@ x = input ("Please supply the ip:   ")
 print(f"scanning", x )
 # loading bar
 for i in tqdm(range(5)):
-    sleep(0.5)
+    time.sleep(0.5)
 # fetching geo data
 def get_geolocation_data(x):
     request_url = f'https://geolocation-db.com/jsonp/' + x
