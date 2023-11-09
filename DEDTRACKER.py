@@ -47,25 +47,4 @@ def save_to_output_file(json_object):
 def read_output_file():
     with open('output.txt', 'r') as f:
         return f.read()
-# verbose
-def main():
-    verbose = True
-
-    if verbose:
-        print("Fetching geolocation data...")
-
-    json_object = get_geolocation_data(x)
-
-    if verbose:
-        print("Saving data to output file...")
-
-    save_to_output_file(json_object)
-
-    if verbose:
-        print("Reading output file...")
-    
-    output_data = read_output_file()
-    print(output_data)
-
-if __name__ == "__main__":
-    main()
+     
